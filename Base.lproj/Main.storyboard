@@ -23,10 +23,20 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cxi-Oq-B5B">
                                 <rect key="frame" x="33.5" y="50" width="200" height="100"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="This is a change" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fy8-un-2zK">
+                                        <rect key="frame" x="38" y="40" width="124" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
                                 <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstItem="Fy8-un-2zK" firstAttribute="centerX" secondItem="cxi-Oq-B5B" secondAttribute="centerX" id="845-Vf-V5L"/>
                                     <constraint firstAttribute="height" constant="100" id="9Iu-11-waH"/>
                                     <constraint firstAttribute="width" constant="200" id="Hf4-Bn-xvv"/>
+                                    <constraint firstItem="Fy8-un-2zK" firstAttribute="centerY" secondItem="cxi-Oq-B5B" secondAttribute="centerY" id="Ww8-81-nZT"/>
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Nj1-3K-SY9">
